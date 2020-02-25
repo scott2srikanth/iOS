@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="HWL-yb-8Vh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimonSays" translatesAutoresizingMaskIntoConstraints="NO" id="gPU-cJ-dRF">
+                                <rect key="frame" x="16" y="20" width="343" height="230"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: 20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6s5-Bk-JId">
+                                <rect key="frame" x="16" y="277" width="167.5" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="L16-gm-gWM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQp-Az-QiJ">
+                                <rect key="frame" x="191.5" y="277" width="167.5" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="F7I-Cd-dOD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-z6-za4">
+                                <rect key="frame" x="16" y="586" width="343" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="NJn-SQ-r5d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gX-QG-ER4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simon Says" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fa0-Qa-b9h">
+                                <rect key="frame" x="16" y="348" width="343" height="230"/>
+                                <color key="backgroundColor" white="1" alpha="0.20609595070422534" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gPU-cJ-dRF" secondAttribute="trailing" constant="16" id="326-86-DW7"/>
+                            <constraint firstItem="gPU-cJ-dRF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6fv-Qq-oUj"/>
+                            <constraint firstItem="HWL-yb-8Vh" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="73e-VS-kzv"/>
+                            <constraint firstItem="Fa0-Qa-b9h" firstAttribute="height" secondItem="gPU-cJ-dRF" secondAttribute="height" id="7iz-xb-DbM"/>
+                            <constraint firstItem="ak9-z6-za4" firstAttribute="top" secondItem="Fa0-Qa-b9h" secondAttribute="bottom" constant="8" id="AcU-Mj-mHt"/>
+                            <constraint firstItem="HWL-yb-8Vh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="E8X-nB-bWs"/>
+                            <constraint firstItem="gPU-cJ-dRF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Enq-lr-nGQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BQp-Az-QiJ" secondAttribute="trailing" constant="16" id="L4T-Rx-sDG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ak9-z6-za4" secondAttribute="trailing" constant="16" id="Lkv-JJ-Xtl"/>
+                            <constraint firstItem="6s5-Bk-JId" firstAttribute="top" secondItem="gPU-cJ-dRF" secondAttribute="bottom" constant="27" id="Mq5-rZ-oC1"/>
+                            <constraint firstItem="Fa0-Qa-b9h" firstAttribute="top" secondItem="6s5-Bk-JId" secondAttribute="bottom" constant="8" id="P2c-9Q-Tvw"/>
+                            <constraint firstItem="Fa0-Qa-b9h" firstAttribute="top" secondItem="BQp-Az-QiJ" secondAttribute="bottom" constant="8" id="Pdi-Rd-3KT"/>
+                            <constraint firstItem="BQp-Az-QiJ" firstAttribute="width" secondItem="6s5-Bk-JId" secondAttribute="width" id="Rxu-SR-1M5"/>
+                            <constraint firstItem="6s5-Bk-JId" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="X5h-5P-v2M"/>
+                            <constraint firstItem="ak9-z6-za4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cTf-a7-xQp"/>
+                            <constraint firstAttribute="bottom" secondItem="ak9-z6-za4" secondAttribute="bottom" constant="20" id="dfE-CW-zCi"/>
+                            <constraint firstItem="BQp-Az-QiJ" firstAttribute="leading" secondItem="6s5-Bk-JId" secondAttribute="trailing" constant="8" id="gby-PB-WSO"/>
+                            <constraint firstItem="HWL-yb-8Vh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jBO-Cb-5s9"/>
+                            <constraint firstItem="BQp-Az-QiJ" firstAttribute="top" secondItem="gPU-cJ-dRF" secondAttribute="bottom" constant="27" id="s7D-oT-3ge"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fa0-Qa-b9h" secondAttribute="trailing" constant="16" id="ujq-Fp-U6G"/>
+                            <constraint firstItem="Fa0-Qa-b9h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ya0-VA-WHK"/>
+                            <constraint firstItem="HWL-yb-8Vh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zN3-ka-LTw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameLabel" destination="Fa0-Qa-b9h" id="l7b-Mp-Ho5"/>
+                        <outlet property="scoreLabel" destination="BQp-Az-QiJ" id="f17-Nt-MCo"/>
+                        <outlet property="startBtn" destination="ak9-z6-za4" id="70H-Tl-DfQ"/>
+                        <outlet property="timeLabel" destination="6s5-Bk-JId" id="F64-nc-sh8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120" y="97.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SimonSays" width="1000" height="707"/>
+        <image name="background" width="1440" height="900"/>
+    </resources>
+</document>
