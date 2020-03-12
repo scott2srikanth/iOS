@@ -1,0 +1,30 @@
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "1is-Of-zGP"; */
+"1is-Of-zGP.title" = "समायोजन";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "DMI-eH-O6o"; */
+"DMI-eH-O6o.text" = "హలో";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Gz1-4m-gI3"; */
+"Gz1-4m-gI3.title" = "घर";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "NPU-s2-Z0H"; */
+"NPU-s2-Z0H.title" = "समायोजन";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QTW-bW-LqO"; */
+"QTW-bW-LqO.normalTitle" = "बटन";
+
+/* Class = "UITabBarItem"; title = "About Us"; ObjectID = "WUs-qR-svV"; */
+"WUs-qR-svV.title" = "हमारे बारे में";
+
+/* Class = "UITabBarItem"; title = "Services"; ObjectID = "Zgf-xi-kLV"; */
+"Zgf-xi-kLV.title" = "सेवाएं";
+
+/* Class = "UINavigationItem"; title = "Services"; ObjectID = "dDM-X3-ZDp"; */
+"dDM-X3-ZDp.title" = "सेवाएं";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "rVt-FP-ck7"; */
+"rVt-FP-ck7.title" = "हमारे बारे में";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "yQU-Qh-7rW"; */
+"yQU-Qh-7rW.title" = "घर";

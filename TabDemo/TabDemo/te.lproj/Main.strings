@@ -1,0 +1,30 @@
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "1is-Of-zGP"; */
+"1is-Of-zGP.title" = "Settings";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "DMI-eH-O6o"; */
+"DMI-eH-O6o.text" = "హలో";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Gz1-4m-gI3"; */
+"Gz1-4m-gI3.title" = "Home";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "NPU-s2-Z0H"; */
+"NPU-s2-Z0H.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QTW-bW-LqO"; */
+"QTW-bW-LqO.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "About Us"; ObjectID = "WUs-qR-svV"; */
+"WUs-qR-svV.title" = "About Us";
+
+/* Class = "UITabBarItem"; title = "Services"; ObjectID = "Zgf-xi-kLV"; */
+"Zgf-xi-kLV.title" = "Services";
+
+/* Class = "UINavigationItem"; title = "Services"; ObjectID = "dDM-X3-ZDp"; */
+"dDM-X3-ZDp.title" = "Services";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "rVt-FP-ck7"; */
+"rVt-FP-ck7.title" = "About Us";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "yQU-Qh-7rW"; */
+"yQU-Qh-7rW.title" = "Home";
